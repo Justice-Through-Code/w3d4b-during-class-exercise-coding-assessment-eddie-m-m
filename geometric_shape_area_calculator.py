@@ -14,7 +14,7 @@ def main():
     
     # TODO: Using one print statement, use string concatenation to print the options only 
     # as a single string (make sure to add a space between each option)
-    print(f'Circle = 1 Rectangle = 2 Triangle = 3')
+    print('Circle = 1' + ' ' + 'Rectangle = 2' + ' ' + 'Triangle = 3')
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
     choice = input('Select a shape by entering 1, 2, or 3')
     # TODO: Convert the variable 'choice' to an integer data type.
@@ -58,6 +58,7 @@ def main():
 
     # TODO: Print a statement explaining each step required to find and complete your technical assignments.  Be specific. 
     print(f'Accept assignment in Canvas\n `git clone` <repo name>\n Open repo and read README.md\n Modify code until python3 -m unittest passes\n Once passing unit tests, `git add` <modified file>\n `git commit` <staged file>\n `git push` to submit. (I prefer to also use `git status` throughout these git stages as well as `git add -p` to see what the specific changes are.) ')
+
 
 if __name__ == "__main__": # DO NOT MODIFY
     main() # DO NOT MODIFY
